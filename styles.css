@@ -1,0 +1,32 @@
+nav {
+    height: 40px;
+    line-height: 30px;
+}
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  footer .footer-copyright{
+border: 2px solid black;
+    height:40px;
+  }    
+
+
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper {
+        height: 30px;
+        line-height: 30px;
+    }
+}
