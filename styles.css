@@ -1,4 +1,5 @@
-nav {
+.nav-wrapper{
+  padding-top:5px;
     height: 40px;
     line-height: 30px;
 }
@@ -6,19 +7,42 @@ nav .brand-logo {
     font-size: 1.6rem; 
 }
 
+body{
 
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  background: url("https://cdn.dribbble.com/users/17332/screenshots/1886380/pattern.jpg");
+  
+}
 
   main {
-    flex: 1 0 auto;
+  
+    min-height:88%;
+   border:5px solid red;
+    display: flex;
+    flex-flow:row wrap;
+justify-content: space-between;
+align-items: center;
   }
+.image-card{
+  width:300px;
+border-radius: 15px;
+}
+
+.image-card-2{
+  
+  width:300px;
+  border-radius: 15px;
+  }
+
+
+
+.card-image{
+padding:5px;
+
+}
+
+
+
   footer .footer-copyright{
-border: 2px solid black;
     height:40px;
   }    
 
@@ -29,4 +53,5 @@ border: 2px solid black;
         height: 30px;
         line-height: 30px;
     }
+
 }
