@@ -1,3 +1,8 @@
+html{
+
+  font-family: Bitter;
+}
+
 .nav-wrapper{
   padding-top:5px;
     height: 40px;
@@ -5,6 +10,7 @@
 }
 nav .brand-logo { 
     font-size: 1.6rem; 
+    
 }
 
 body{
@@ -16,9 +22,8 @@ body{
   main {
   
     min-height:88%;
-   border:5px solid red;
     display: flex;
-    flex-flow:row wrap;
+    flex-flow:row ;
 justify-content: space-between;
 align-items: center;
   }
@@ -32,7 +37,10 @@ border-radius: 15px;
   width:300px;
   border-radius: 15px;
   }
+#convert{
 
+  align-self: center
+}
 
 
 .card-image{
@@ -48,10 +56,14 @@ padding:5px;
 
 
 
-@media only screen and (min-width: 601px){
+@media only screen and (max-width: 670px){
     nav, nav .nav-wrapper {
         height: 30px;
         line-height: 30px;
     }
+main{
+
+  flex-flow: column;
+}
 
 }
